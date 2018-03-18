@@ -6,7 +6,7 @@ from scrapy.crawler import CrawlerProcess
 import datetime
 from elasticsearch import Elasticsearch
 
-es = Elasticsearch(['http://elastic:supersecret@muffuletta:9200'])
+es = Elasticsearch(['http://elastic:supersecret@localhost:9200'])
 es_index='cl-post'
 
 mappings='''
